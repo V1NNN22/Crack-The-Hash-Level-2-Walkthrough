@@ -837,7 +837,7 @@ john hash.txt --format=raw-blake2 --wordlist=words.txt --rules=All
 - --wordlist=words.txt → Uses the scraped words
 - --rules=All → Applies all default John mutation rules
 
-![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/29.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/29.png)
 
 ### - Hash 8 successfully cracked
 
