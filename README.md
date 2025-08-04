@@ -55,7 +55,7 @@ No answer is required. Just run:
 ```bash
 haiti 1aec7a56aa08b25b596057e1ccbcb6d768b770eaa0f355ccbd56aee5040e02ee
 ```
-![Hash Screenshot](./screenshots/2.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/2.jpg)
 
 ## **Question 4:** Hashcat Code
 Question: What is the Keccak-256 Hashcat code of the above hash?
@@ -120,7 +120,7 @@ archives instead of remote ones?
 ```bash
 python3 wordlistctl.py search rockyou -l
 ```
-![Hash Screenshot](./screenshots/3.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/3.jpg)
 
 ## **Question 3:** How to Use Pre-installed Rockyou on Kali Linux
 The Rockyou wordlist is already pre-installed on Kali Linux by default. So we don’t need to
@@ -153,7 +153,7 @@ Use this command to list all wordlists in the usernames group:
 python3 wordlistctl.py list-g usernames
 ```
 ### It will show all wordlists under the usernames category. The first name in the list is your answer.
-![Hash Screenshot](./screenshots/4.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/4.jpg)
 
 ## Task 4 – Cracking Tools, Modes, and Rules
 ```bash
@@ -256,7 +256,7 @@ Now you have:
 - Downloaded the 10k-most-common.txt password list
 - Written your custom rule in john-local.conf
 
-![Hash Screenshot](./screenshots/5.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/5.jpg)
 
 ## **Question 3:** Cracking the Given SHA1 Hash
 This is the main cracking challenge. You are given a SHA1 hash of a password.
@@ -282,7 +282,7 @@ saved the file.
 realpath yourfilename.txt
 ```
 
-![Hash Screenshot](./screenshots/6.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/6.jpg)
 
 ## ❗ ALTERNATIVE METHOD
 ```bash
@@ -323,7 +323,7 @@ sudo python3 wordlistctl.py fetch dogs -d
 This wordlist will be used in the Mentalist tool
 ```
 
-![Hash Screenshot](./screenshots/10.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/10.jpg)
 
 
 ## Step 2: Install and Run Mentalist
@@ -342,11 +342,11 @@ en_US.UTF-8 UTF- 8
 - Run Mentalist:
 ./mentalist
 ```
-![Hash Screenshot](./screenshots/7.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/7.jpg)
 
-![Hash Screenshot](./screenshots/8.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/8.jpg)
 
-![Hash Screenshot](./screenshots/9.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/9.jpg)
 
 ## Step 3: Generate Custom Wordlist in Mentalist
 ```bash
@@ -364,7 +364,7 @@ o Replace S with $
 - Save as:
 - example.txt
 ```
-![Hash Screenshot](./screenshots/11.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/11.jpg)
 
 
 ## Step 4: Crack a Hash Using Mentalist Wordlist
@@ -407,7 +407,7 @@ Option B: If You Get “Externally Managed Environment” Error
  Install inside the virtual environment:
 pip install ttpassgen
 ```
-![Hash Screenshot](./screenshots/12.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/12.jpg)
 
 ## Step 7: Generate PIN Wordlist (0000–9999)
 ```bash
@@ -444,7 +444,7 @@ Examples: 1234 - a, 0001 - bc, 9999 - xyz
 Total: ~ 182,780,000 combinations
 File size: ~ 1.7 GB
 ```
-![Hash Screenshot](./screenshots/13.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/13.jpg)
 
 ## Step 10: Crack the MD5 Hash Using combination.txt
 ```bash
@@ -456,7 +456,7 @@ john hash.txt --wordlist=combination.txt --format=raw-MD
 --wordlist=combination.txt: use your custom wordlist
 John will check combinations like 1234 - a, 9999 - ab, etc.
 ```
-![Hash Screenshot](./screenshots/14.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/14.jpg)
 
 ## Task 6 – Its Time To Crack The Hashes.
 ```bash
@@ -512,13 +512,13 @@ c^[0-9!@#$%^&*()+]^[0-9!@#$%^&()_+]^[0-9!@#$%^&()+]^[0-9!@#$%^&*()+]^[0-
 john --format=Raw-MD5 hash1.txt --
 wordlist=/usr/share/wordlists/misc/malenames.txt --rules=hash1-border
 ```
-![Hash Screenshot](./screenshots/15.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/15.jpg)
 
-![Hash Screenshot](./screenshots/16.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/16.jpg)
 
-![Hash Screenshot](./screenshots/17.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/17.jpg)
 
-![Hash Screenshot](./screenshots/18.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/18.jpg)
 
 
 ### - Hash #1 Cracked Successfully
@@ -559,7 +559,7 @@ c^[0-9!@#$%^&*()+]^[0-9!@#$%^&()_+]^[0-9!@#$%^&()+]
 john --format=Raw-MD5 hash.txt --
 wordlist=/usr/share/wordlists/misc/femalenames.txt --rules=hash2-border
 ```
-![Hash Screenshot](./screenshots/19.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/19.jpg)
 
 ### - Hash #2 Cracked Successfully
 The female name found at the bottom is your answer for Question 2.
@@ -601,9 +601,9 @@ l33t , which handles freak/leet-style mutations. You just need to call it using 
 john --format=Raw-MD5 hash.txt --
 wordlist=/usr/share/wordlists/misc/cities.txt --rules=l33t
 ```
-![Hash Screenshot](./screenshots/20.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/20.jpg)
 
-![Hash Screenshot](./screenshots/21.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/21.jpg)
 
 ### - Hash #3 Cracked Successfully
 The resulting password is a mutated town name from Mexico using leetspeak
@@ -657,7 +657,7 @@ echo 'davidguettapan' > name.txt
 ```bash
 john --format=Raw-SHA1 hash.txt --wordlist=name.txt --rules=nt
 ```
-![Hash Screenshot](./screenshots/22.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/22.jpg)
 
 ### - Hash #4 Cracked Successfully
 This works because the hash is SHA1 and is a mutated form of the username. The nt rule
@@ -692,9 +692,9 @@ sudo python3 lyricspass/lyricspass.py -a adele
 john --format=raw-md5 hash.txt --wordlist=/path/to/adele_lyrics.txt --
 rules=reverse
 ```
-![Hash Screenshot](./screenshots/23.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/23.jpg)
 
-![Hash Screenshot](./screenshots/24.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/24.jpg)
 
 
 ## Alternate Method for Question 5 – Manual Lyrics + Custom Reverse Rule
@@ -764,7 +764,7 @@ Run John the Ripper:
 john hash.txt --format=raw-md5 --wordlist=combination.txt
 ```
 
-![Hash Screenshot](./screenshots/26.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/26.jpg)
 
 ### - Hash 6 successfully cracked.
 
@@ -799,7 +799,7 @@ hashcat -m 17600 hash.txt /usr/share/wordlists/rockyou.txt
 - Note: Hashcat mode 17600 is used specifically for cracking SHA3-512 hashes. It ensures
 the hash is interpreted and attacked using the correct algorithm.
 
-![Hash Screenshot](./screenshots/27.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/27.jpg)
 
 ### - Hash 7 successfully cracked
 
@@ -837,7 +837,7 @@ john hash.txt --format=raw-blake2 --wordlist=words.txt --rules=All
 - --wordlist=words.txt → Uses the scraped words
 - --rules=All → Applies all default John mutation rules
 
-![Hash Screenshot](./screenshots/29.png)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/29.jpg)
 
 ### - Hash 8 successfully cracked
 
@@ -863,7 +863,7 @@ hashcat -m 1800 hash.txt /usr/share/wordlists/rockyou.txt
 - Note: Mode 1800 tells Hashcat to treat the hash as a SHA512crypt (used in Linux system
 password hashes).
 
-![Hash Screenshot](./screenshots/28.jpg)
+![Hash Screenshot](https://github.com/V1NNN22/Crack-The-Hash-Level-2/raw/main/Screenshots/28.jpg)
 
 ### - Hash 9 successfully cracked.
 
