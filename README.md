@@ -43,7 +43,7 @@ Haiti
 741ebf5166b9ece4cca88a3868c44871e8370707cf19af3ceaa4a6fba006f224ae03f39153492
  853 
  ```
-![Hash Screenshot](./screenshots/1.jpg)
+![Hash Screenshot](./screenshots/https://github.com/V1NNN22/Crack-The-Hash-Level-2/blob/main/Screenshots/1.jpg?raw=true)
 ---
 
 
